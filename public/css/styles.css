@@ -1,0 +1,121 @@
+.container-fluid
+ {
+    padding-top: 4.375em;
+    padding-bottom: 4.375em;
+ }
+.navbar
+ {
+    padding-top: 0.9375em;
+    padding-bottom: 0.9375em;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 0.75em;
+    letter-spacing: 0.3125em;
+    background-color: lightyellow;
+ }
+.navbar-nav li a
+ {
+ 	color:grey;
+ 	display:block;
+ }
+.navbar-nav li a:hover
+ {
+    color: #1abc9c !important;
+    text-decoration: none;
+ }
+.ovrflw
+ {
+    overflow: auto;
+    padding:1.25em 12.5em 6.25em 12.5em;
+ }
+.main-title
+ {
+    font-family: 'Poiret One', cursive;
+    font-weight:bold;
+ }
+.main-para
+ {
+    font-family: 'Poiret One', cursive;
+    font-size:1.25em;
+ }
+.inp
+ {
+    border: 1px solid lightgrey;
+ }
+.inp:focus
+ {
+    outline-color:lightblue;
+ }
+.post-title-style
+ {
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+ }
+.post-cont-style
+ {
+    word-wrap:break-word;
+    max-width:85%;
+    text-align:justify;
+    font-size: 1.25em;
+    font-family: 'Poiret One', cursive
+ }
+.ed-de
+ {
+    display: inline;
+ }
+.edit
+ {
+    background-color:black;
+    color:white;
+    border:none;
+    border-radius:0.5em;
+    font-size:1.5em;
+    font-family: 'Poiret One', cursive;
+ }
+.delete
+ {
+    position:absolute;
+    top:0.3125em;
+    left:5em;
+    background-color:white;
+    border:none;
+    font-size:1.875em;
+    position:absolute;
+    bottom:0;
+    right:0;
+ }
+.delete:hover
+ {
+    background-color:lightblue;
+    border-radius:0.5em;
+ }
+.btn
+ {
+    background-color: black;
+    color:white;
+ }
+.btn:hover
+ {
+    background-color: grey;
+    color:white;
+ }
+.footer-padding
+ {
+	padding-bottom:;
+ }
+.footer
+ {
+    position:fixed;
+    bottom:0;
+	text-align: center;
+	width: 100%;
+	height:4.375em;
+	background-color: #bca136;
+ }
+.footer p
+ {
+	padding-top: 2.5em;
+	font-size: 0.85em;;
+  	color: #fff;
+ }

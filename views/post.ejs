@@ -1,0 +1,30 @@
+<%- include("partials/header"); -%>
+	
+	<div class="row">
+		<div class="col-lg-11 col-md-11 col-sm-11">
+			<div class="container-fluid">
+				<h1 class="post-title-style"> <%= title %> </h1>
+				<p class="post-cont-style"> <%= content %> </p>
+			</div>
+		</div>
+		<div class="col-lg-1 col-md-1 col-sm-1">
+			<div class="container-fluid ed-de">
+				<div class="row">
+					<div class="col-lg-6">
+						<form action="/update" method="post">
+							<button class="btn btn-lg edit" type="submit" name="update" value="<%= id %>">Edit</button>
+						</form>
+					</div>
+					<div class="col-lg-6">
+						<form action="/delete" method="post">
+							<button class="delete" type="submit" name="remove" value="<%= id %>"><i class="fa fa-trash" aria-hidden="true"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+<%- include("partials/footer"); -%>
